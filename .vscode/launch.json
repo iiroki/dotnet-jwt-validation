@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug / Symmetric",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/JwtValidation.Symmetric/bin/Debug/net7.0/JwtValidation.Symmetric.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/JwtValidation.Symmetric",
+            "stopAtEntry": false,
+        },
+        {
+            "name": "Debug / Asymmetric",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/JwtValidation.Asymmetric/bin/Debug/net7.0/JwtValidation.Asymmetric.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/JwtValidation.Asymmetric",
+            "stopAtEntry": false,
+        }
+    ]
+}

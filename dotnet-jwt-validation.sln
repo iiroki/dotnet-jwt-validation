@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtValidation.Asymmetric", "JwtValidation.Asymmetric\JwtValidation.Asymmetric.csproj", "{FC4C32D5-F768-4F1A-B739-CD436AE95E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtValidation.Symmetric", "JwtValidation.Symmetric\JwtValidation.Symmetric.csproj", "{5B70A109-A136-4B8F-9F58-DC88BBDFA6FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC4C32D5-F768-4F1A-B739-CD436AE95E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4C32D5-F768-4F1A-B739-CD436AE95E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4C32D5-F768-4F1A-B739-CD436AE95E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4C32D5-F768-4F1A-B739-CD436AE95E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B70A109-A136-4B8F-9F58-DC88BBDFA6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B70A109-A136-4B8F-9F58-DC88BBDFA6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B70A109-A136-4B8F-9F58-DC88BBDFA6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B70A109-A136-4B8F-9F58-DC88BBDFA6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
